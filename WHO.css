@@ -1,0 +1,161 @@
+.navbar {
+    background-color: rgb(16, 16, 139);
+    display: flex;
+    
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.navbar i{
+   margin-left: -0.6vw;
+   color: white;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+ .navbar li{
+    float: left;
+    
+ }
+ .navbar :active{
+    background-color: rgb(23, 23, 221);
+ }
+ .navbar a{
+    justify-items: center;
+    
+    color:white;
+    display: inline-block;
+    padding: 10px;
+ }
+ .navbar a:hover{
+    background-color:rgb(19, 19, 199);
+    color: white;  
+ }
+ <!--Navibar-->
+ .Logo {
+   display: flex;
+ }
+
+ .navbar0 {
+
+    background-color: rgb(8, 8, 160);
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+
+ }
+ .navbar1 {
+   
+    justify-content:left;
+   
+ }
+ .navbar2 ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+
+ }
+ .navbar2 li{
+    float: left;
+
+ }
+ .navbar2 a:hover{
+    background-color:rgb(19, 19, 199);
+    color: white;  
+ }
+ .navbar2 :active{
+    background-color: rgb(23, 23, 221);
+ }
+ .navbar2 a{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    padding: 10px;
+ }
+ .background {
+    background-image: url(images/world-health-organization-office.jpg);
+    overflow-x: auto;
+    margin-top: 0vh;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    height: 90vh;
+ }
+ .background h2 {
+    text-align: right;
+    color: white;
+    margin-right: 3vw;
+    padding: 30vh;
+    
+ }
+ .images {
+    display: flex;
+    column-gap: 0.5vw;
+    margin-top: -15%;
+    margin-left: 72%;
+ }
+ .background h3 {
+     color: white;
+     background-color: rgb(10, 10, 136);
+     text-align: center;
+     padding-top: 3vh;
+     height: 13vh;
+     margin-top: 13vh;
+     font-size: 200%;
+ }
+ .background button {
+    margin-left: 45%;
+    text-align: center;
+    
+   
+ }
+ .Features {
+    display: flex;
+    border-radius: 10px;
+ }
+ .Stories {
+    display: flex;
+    background-color: silver;
+   
+ }
+ .Emergencies a{
+   text-decoration: none;
+ }
+ .footer {
+   display: flex;
+   margin-top: 10vh;
+   background-color: rgb(11, 11, 83);
+   color: white;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   
+   
+ }
+ .footer li a{
+   color: white;
+   text-decoration: none;
+
+ }
+ .footer li a:hover{
+   color:rgb(238, 13, 32)
+ }
+ .footer li a:active {
+   background-color: blue;
+ }
+
+ @media only screen (max-width: 300px) {
+   .navbar{
+      display:block;
+      width: 100%;
+      font-size: 3vw
+   }
+
+ }
